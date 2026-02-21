@@ -1,0 +1,30 @@
+# Unreal Engine standard gitignore
+
+# Temporary folders
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Visual Studio files
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# macOS files
+.DS_Store
+
+# Plugins temporary folders
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# User-specific config
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEditorSettings.ini
+Config/DefaultLightmass.ini
+Config/DefaultGameUserSettings.ini
